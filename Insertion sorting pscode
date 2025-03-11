@@ -5,14 +5,14 @@ Insertion sort psuedocode
 ```
 # Write the psuedocode 
 START
-def insertion_sort(arr):
-    for i in range(1, len(arr)):  
-        key = arr[i] 
-        j = i - 1  
-        while j >= 0 and arr[j] > key:
-            arr[j + 1] = arr[j]
-            j -= 1   
-        arr[j + 1] = key  
+DEF INSERTION_SORT(ARR):
+    FOR I IN RANGE(1, LEN(ARR)):  
+        KEY = ARR[I] 
+        J = I - 1  
+        WHILE J >= 0 AND ARR[J] > KEY:
+            ARR[J + 1] = ARR[J]
+            J -= 1   
+        ARR[J + 1] = KEY   
 
 END
 ```
