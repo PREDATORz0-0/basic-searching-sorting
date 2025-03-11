@@ -3,7 +3,7 @@
 Insertion sort psuedocode
 
 ```
-# Write the psuedocode 
+
 START
 DEF INSERTION_SORT(ARR):
     FOR I IN RANGE(1, LEN(ARR)):  
